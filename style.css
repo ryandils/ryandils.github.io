@@ -16,10 +16,9 @@ nav ul li a, footer {
 }
 
 header {
-    background: #FA5825;
+    background: 0;
     color: white;
     text-align: center;
-    padding: 1em 0;
 }
 
 section {
@@ -29,7 +28,7 @@ section {
 footer {
     text-align: center;
     padding: 1em 0;
-    background: rgba(208,58,193,1);
+    background: 0;
     color: white;
     font-family: 'Red Hat Display', sans-serif;
 }
