@@ -2,33 +2,24 @@ body {
     font-family: 'Red Hat Display', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background: linear-gradient(180deg, rgba(255,92,14,1) 0%, rgba(232,76,101,1) 50%, rgba(208,58,193,1) 100%);
+    color: white;
+}
+
+a {
+    color: #000000; /* Color for unclicked links */
+    text-decoration: none; /* Removes the underline */
+}
+
+nav ul li a, footer {
+    color: white; /* Ensure readability against the dark background */
 }
 
 header {
-    background-color: #333;
+    background: #FA5825;
     color: white;
     text-align: center;
     padding: 1em 0;
-}
-
-/* Responsive Navigation Menu */
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    padding: 10px;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-family: 'Red Hat Display', sans-serif;
 }
 
 section {
@@ -38,7 +29,7 @@ section {
 footer {
     text-align: center;
     padding: 1em 0;
-    background-color: #333;
+    background: rgba(208,58,193,1);
     color: white;
     font-family: 'Red Hat Display', sans-serif;
 }
@@ -94,6 +85,7 @@ iframe {
 .engineering-column {
     text-align: right;
 }
+
 
 @media (max-width: 768px) {
     #about {
