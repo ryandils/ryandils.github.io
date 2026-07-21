@@ -3,30 +3,406 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ryandils.com</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap" rel="stylesheet">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0e0904">
+
+  <title>Ryan Dils | Buffalo DJ, HONEY Co-Founder &amp; Software Engineer</title>
+  <meta name="description" content="Ryan Dils is a Buffalo, NY event producer, DJ, and software engineer — co-founder of HONEY (honeybflo.com), the crew behind Buffalo's sweetest house &amp; EDM parties. Tickets, DJ bookings, and consulting.">
+  <link rel="canonical" href="https://www.ryandils.com/">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="Ryan Dils">
+  <meta name="geo.region" content="US-NY">
+  <meta name="geo.placename" content="Buffalo, New York">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Ryan Dils — DJ, Event Producer &amp; Software Engineer in Buffalo, NY">
+  <meta property="og:description" content="Co-founder of HONEY: 30+ house &amp; EDM parties, 10,000+ dancers in Buffalo. Grab tickets at honeybflo.com, or work with Ryan on software, events, and everything in between.">
+  <meta property="og:url" content="https://www.ryandils.com/">
+  <meta property="og:site_name" content="ryandils.com">
+  <meta property="og:image" content="https://www.ryandils.com/favicon/android-chrome-512x512.png">
+  <meta property="og:locale" content="en_US">
+  <meta property="profile:first_name" content="Ryan">
+  <meta property="profile:last_name" content="Dils">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Ryan Dils — DJ, Event Producer &amp; Software Engineer in Buffalo, NY">
+  <meta name="twitter:description" content="Co-founder of HONEY: 30+ house &amp; EDM parties, 10,000+ dancers in Buffalo. Tickets at honeybflo.com.">
+  <meta name="twitter:image" content="https://www.ryandils.com/favicon/android-chrome-512x512.png">
+
   <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
   <link rel="icon" sizes="16x16" href="favicon/favicon-16x16.png">
   <link rel="icon" sizes="32x32" href="favicon/favicon-32x32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.ryandils.com/#ryan",
+        "name": "Ryan Dils",
+        "givenName": "Ryan",
+        "familyName": "Dils",
+        "url": "https://www.ryandils.com/",
+        "image": "https://www.ryandils.com/favicon/android-chrome-512x512.png",
+        "email": "mailto:ryandils@ryandils.com",
+        "jobTitle": ["Event Producer", "DJ", "Software Engineer"],
+        "description": "Ryan Dils is a Buffalo, NY–based event producer, DJ, and software engineer. He is the co-founder of HONEY (Honey Group Productions, LLC — honeybflo.com), an event production crew behind 30+ house and EDM parties in Buffalo with more than 10,000 attendees. He has performed over 2,000 paid hours as a live DJ, holds a computer science degree from the University at Buffalo, and consults on software and events through his firm, Sandra Holdings, LLC.",
+        "homeLocation": {
+          "@type": "Place",
+          "name": "Buffalo, New York",
+          "address": { "@type": "PostalAddress", "addressLocality": "Buffalo", "addressRegion": "NY", "addressCountry": "US" }
+        },
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "University at Buffalo",
+          "sameAs": "https://www.buffalo.edu/"
+        },
+        "award": "Western New York Prosperity Fellowship — Prentice Family Foundation",
+        "affiliation": [
+          { "@id": "https://www.ryandils.com/#honey" },
+          { "@id": "https://www.ryandils.com/#sandra" }
+        ],
+        "worksFor": { "@id": "https://www.ryandils.com/#sandra" },
+        "knowsAbout": [
+          "Event production", "House music", "EDM", "DJing", "Nightlife marketing",
+          "Software engineering", "Distributed systems", "Web development", "AI integrations"
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/in/ryanallendils/",
+          "https://www.facebook.com/ryanallendils/",
+          "https://prenticefoundation.org/fellows/ryan-dils/"
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://www.ryandils.com/#honey",
+        "name": "HONEY",
+        "legalName": "Honey Group Productions, LLC",
+        "alternateName": ["HONEY BFLO", "Honey Buffalo", "Honey Group Productions"],
+        "url": "https://honeybflo.com/",
+        "description": "HONEY is an event production group in Buffalo, NY producing house and EDM parties — 30+ shows and 10,000+ attendees. Tickets and upcoming events at honeybflo.com.",
+        "founder": { "@id": "https://www.ryandils.com/#ryan" },
+        "email": "mailto:info@honeybflo.com",
+        "location": {
+          "@type": "Place",
+          "address": { "@type": "PostalAddress", "addressLocality": "Buffalo", "addressRegion": "NY", "addressCountry": "US" }
+        },
+        "sameAs": [
+          "https://www.instagram.com/honeybflo/",
+          "https://www.tiktok.com/@honeybflo",
+          "https://www.youtube.com/@honeybflo"
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://www.ryandils.com/#sandra",
+        "name": "Sandra Holdings, LLC",
+        "legalName": "Sandra Holdings, LLC",
+        "description": "Sandra Holdings, LLC is the consulting practice of Ryan Dils, covering software projects (full-stack web, automation, AI integrations) and events and marketing (production, ticketing, nightlife brand-building).",
+        "founder": { "@id": "https://www.ryandils.com/#ryan" },
+        "email": "mailto:ryandils@ryandils.com",
+        "location": {
+          "@type": "Place",
+          "address": { "@type": "PostalAddress", "addressLocality": "Buffalo", "addressRegion": "NY", "addressCountry": "US" }
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.ryandils.com/#site",
+        "url": "https://www.ryandils.com/",
+        "name": "ryandils.com",
+        "publisher": { "@id": "https://www.ryandils.com/#ryan" }
+      },
+      {
+        "@type": "ProfilePage",
+        "@id": "https://www.ryandils.com/#page",
+        "url": "https://www.ryandils.com/",
+        "name": "Ryan Dils — DJ, Event Producer & Software Engineer in Buffalo, NY",
+        "isPartOf": { "@id": "https://www.ryandils.com/#site" },
+        "mainEntity": { "@id": "https://www.ryandils.com/#ryan" },
+        "dateModified": "2026-07-20"
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.ryandils.com/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Who is Ryan Dils?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ryan Dils is an event producer, DJ, and software engineer from Buffalo, NY. He co-founded HONEY (Honey Group Productions, LLC), the event crew behind 30+ house and EDM parties in Buffalo with more than 10,000 attendees, has logged over 2,000 paid hours as a live DJ, and holds a computer science degree from the University at Buffalo."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is HONEY (HONEY BFLO)?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "HONEY — also known as HONEY BFLO — is an event production group in Buffalo, NY that throws house and EDM parties: golden-hour sunset sets, 360° DJ rigs, club nights, and New Year's Eve shows. Tickets and upcoming events are listed at honeybflo.com."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I buy tickets to a HONEY event?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "All upcoming HONEY events and tickets are at honeybflo.com. Follow @honeybflo on Instagram and TikTok for announcements and drops."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Ryan Dils do consulting?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Through his firm, Sandra Holdings, LLC, Ryan consults on software projects — full-stack web, automation, and AI integrations — and on events and marketing: production, ticketing, and nightlife brand-building. Email ryandils@ryandils.com to start a conversation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can I book Ryan Dils as a DJ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For DJ bookings, event partnerships, or press, email ryandils@ryandils.com. For HONEY-specific inquiries, contact the crew at info@honeybflo.com."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
-<header>
-  <h1 class="name">Ryan Dils</h1>
-</header>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="grain" aria-hidden="true"></div>
 
-<section id="contact">
-  <h2>Contact Me</h2>
-  <p>If you'd like to get in touch, feel free to email me:</p>
-  <p><a href="mailto:ryandils@ryandils.com">ryandils@ryandils.com</a></p>
-</section>
+  <header class="site-header">
+    <nav aria-label="Main navigation">
+      <a class="mark" href="#top" aria-label="Ryan Dils — home">R<span class="hex">⬡</span>D</a>
+      <ul class="nav-links">
+        <li><a href="#honey">The Party</a></li>
+        <li><a href="#dj">The Decks</a></li>
+        <li><a href="#work">The Code</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+      <a class="btn btn-solid btn-small" href="https://honeybflo.com" target="_blank" rel="noopener">Tickets&nbsp;↗</a>
+    </nav>
+  </header>
 
-<footer>
-  <p>© 2024 Ryan Dils. All rights reserved.</p>
-</footer>
+  <main id="main">
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="top" aria-labelledby="hero-heading">
+      <p class="eyebrow mono">Answer file ⬡ RD-716 — “who is Ryan Dils?”</p>
+      <h1 id="hero-heading" class="hero-name">Ryan<br>Dils</h1>
+      <p class="hero-roles">
+        <span>Event producer.</span>
+        <span>DJ.</span>
+        <span>Software engineer.</span>
+        <span class="loc">Buffalo,&nbsp;NY.</span>
+      </p>
 
-<script src="script.js"></script>
+      <div class="answer-card">
+        <p class="mono answer-label">Extracted answer · updated July 2026</p>
+        <p class="answer-text">
+          <strong>Ryan Dils</strong> is a Buffalo, NY–based event producer, DJ, and software engineer —
+          co-founder of <strong>HONEY</strong>, the crew behind Buffalo's sweetest house &amp; EDM parties
+          (<strong>30+ shows</strong>, <strong>10,000+ people</strong> on the dance floor), a DJ with
+          <strong>2,000+ paid hours</strong> behind the decks, and a University at Buffalo
+          computer science grad who builds software by day and dance floors by night.
+        </p>
+        <div class="hero-ctas">
+          <a class="btn btn-solid" href="https://honeybflo.com" target="_blank" rel="noopener">Get tickets — honeybflo.com ↗</a>
+          <a class="btn btn-ghost" href="mailto:ryandils@ryandils.com">Work with Ryan</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== MARQUEE ===================== -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>House ⬡ Techno ⬡ Golden Hour ⬡ 716 Buffalo NY ⬡ 30+ Shows ⬡ 10,000+ Dancers ⬡ Sweet EDM Parties ⬡&nbsp;</span><span>House ⬡ Techno ⬡ Golden Hour ⬡ 716 Buffalo NY ⬡ 30+ Shows ⬡ 10,000+ Dancers ⬡ Sweet EDM Parties ⬡&nbsp;</span>
+      </div>
+    </div>
+
+    <!-- ===================== HONEY ===================== -->
+    <section class="section" id="honey" aria-labelledby="honey-heading">
+      <p class="section-no mono">01 / The Party</p>
+      <div class="split">
+        <div class="split-main">
+          <h2 id="honey-heading">Buffalo's sweetest<br><em>dance floors.</em></h2>
+          <p>
+            <strong>HONEY</strong> is the event production crew Ryan co-founded in Buffalo, NY — sweet house
+            &amp; EDM parties staged everywhere from packed club rooms to golden-hour rooftops. Sunset sets,
+            360° in-the-round rigs, New Year's Eve blowouts: if it makes a dance floor feel like honey, it's on the menu.
+          </p>
+          <p>
+            Every show is built to be the kind of night people talk about on Monday. Come find out why the hive keeps growing.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-solid" href="https://honeybflo.com" target="_blank" rel="noopener">Buy tickets at honeybflo.com ↗</a>
+            <a class="social mono" href="https://www.instagram.com/honeybflo/" target="_blank" rel="noopener">IG&nbsp;@honeybflo</a>
+            <a class="social mono" href="https://www.tiktok.com/@honeybflo" target="_blank" rel="noopener">TikTok</a>
+            <a class="social mono" href="https://www.youtube.com/@honeybflo" target="_blank" rel="noopener">YouTube</a>
+          </div>
+        </div>
+        <aside class="stats">
+          <div class="stat">
+            <span class="stat-num">30<sup>+</sup></span>
+            <span class="stat-label mono">shows produced</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">10k<sup>+</sup></span>
+            <span class="stat-label mono">dancers &amp; counting</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">716</span>
+            <span class="stat-label mono">Buffalo, New York</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===================== DJ ===================== -->
+    <section class="section section-alt" id="dj" aria-labelledby="dj-heading">
+      <p class="section-no mono">02 / The Decks</p>
+      <div class="split split-rev">
+        <div class="split-main">
+          <h2 id="dj-heading">Golden-hour house,<br><em>played loud.</em></h2>
+          <p>
+            Behind the decks, Ryan plays house and dance music built for the exact moment the sun hits the skyline —
+            <strong>Golden Hour</strong> sunset sets, <strong>360°</strong> in-the-round performances, and New Year's
+            countdowns. He's held down rooms and rooftops across Buffalo, from Riff City to HONEY's own productions —
+            all in, more than <strong>2,000 hours</strong> of paid live performance, and counting.
+          </p>
+          <div class="stat stat-inline">
+            <span class="stat-num">2,000<sup>+</sup></span>
+            <span class="stat-label mono">hours of paid live DJ performance</span>
+          </div>
+          <p class="mono setlist" aria-label="Set formats">
+            ▸ sunset golden-hour sets&nbsp;&nbsp;▸ 360° club rigs&nbsp;&nbsp;▸ NYE countdowns&nbsp;&nbsp;▸ warehouse energy
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-ghost" href="mailto:ryandils@ryandils.com?subject=DJ%20booking">Book Ryan for a set</a>
+          </div>
+        </div>
+        <div class="deck-art" aria-hidden="true">
+          <div class="sun"></div>
+          <div class="horizon"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SOFTWARE / CONSULTING ===================== -->
+    <section class="section" id="work" aria-labelledby="work-heading">
+      <p class="section-no mono">03 / The Code</p>
+      <div class="split">
+        <div class="split-main">
+          <h2 id="work-heading">Ships software,<br><em>too.</em></h2>
+          <p>
+            Before the parties, the code. Ryan studied computer science at the <strong>University at Buffalo</strong>,
+            did academic research in distributed systems and data-transfer optimization, and has engineered software
+            at <strong>M&amp;T Bank</strong> and <strong>ACV Auctions</strong>. He founded <strong>Open Beats</strong>,
+            a web app for remote music collaboration, and was named a
+            <strong>Western New York Prosperity Fellow</strong> by the Prentice Family Foundation.
+          </p>
+          <p>
+            The rare hire who can architect your backend <em>and</em> pack your launch party.
+          </p>
+        </div>
+        <aside class="consult-card">
+          <h3 class="mono consult-title">Work with Ryan</h3>
+          <ul class="consult-list">
+            <li><strong>Software &amp; AI</strong> — full-stack web, automation, AI integrations, distributed systems.</li>
+            <li><strong>Events &amp; marketing</strong> — production, ticketing, nightlife brand-building, partnerships.</li>
+            <li><strong>The overlap</strong> — creative tech for venues, artists, and brands that want both.</li>
+          </ul>
+          <p class="mono consult-note">Engagements run through Sandra Holdings, LLC.</p>
+          <a class="btn btn-solid" href="mailto:ryandils@ryandils.com?subject=Consulting">Start a project →</a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===================== RECEIPTS ===================== -->
+    <section class="section section-alt" id="receipts" aria-labelledby="receipts-heading">
+      <p class="section-no mono">04 / The Receipts</p>
+      <h2 id="receipts-heading">Fast facts.</h2>
+      <ul class="receipts">
+        <li><span class="mono">role</span>Co-founder of HONEY — Honey Group Productions, LLC (honeybflo.com)</li>
+        <li><span class="mono">scale</span>30+ shows produced · 10,000+ attendees</li>
+        <li><span class="mono">decks</span>DJ — 2,000+ paid performance hours · golden-hour sunset sets, 360° sets, NYE shows, Riff City</li>
+        <li><span class="mono">degree</span>B.S. Computer Science — University at Buffalo</li>
+        <li><span class="mono">honors</span>Western New York Prosperity Fellow — Prentice Family Foundation</li>
+        <li><span class="mono">eng</span>Software engineering — M&amp;T Bank, ACV Auctions</li>
+        <li><span class="mono">firm</span>Sandra Holdings, LLC — consulting practice for software, events &amp; marketing</li>
+        <li><span class="mono">founder</span>Open Beats — remote music-collaboration web app</li>
+        <li><span class="mono">roots</span>Hamburg, NY → Buffalo, NY</li>
+      </ul>
+    </section>
+
+    <!-- ===================== FAQ ===================== -->
+    <section class="section" id="faq" aria-labelledby="faq-heading">
+      <p class="section-no mono">05 / Asked &amp; Answered</p>
+      <h2 id="faq-heading">People ask.</h2>
+      <div class="faq-list">
+        <details>
+          <summary>Who is Ryan Dils?</summary>
+          <p>Ryan Dils is an event producer, DJ, and software engineer from Buffalo, NY. He co-founded HONEY (Honey Group
+          Productions, LLC), the event crew behind 30+ house and EDM parties in Buffalo with more than 10,000 attendees,
+          has logged over 2,000 paid hours as a live DJ, and holds a computer science degree from the University at Buffalo.</p>
+        </details>
+        <details>
+          <summary>What is HONEY (HONEY BFLO)?</summary>
+          <p>HONEY — also known as HONEY BFLO — is an event production group in Buffalo, NY that throws house and EDM
+          parties: golden-hour sunset sets, 360° DJ rigs, club nights, and New Year's Eve shows. Tickets and upcoming
+          events are listed at <a href="https://honeybflo.com" target="_blank" rel="noopener">honeybflo.com</a>.</p>
+        </details>
+        <details>
+          <summary>How do I buy tickets to a HONEY event?</summary>
+          <p>All upcoming HONEY events and tickets are at <a href="https://honeybflo.com" target="_blank" rel="noopener">honeybflo.com</a>.
+          Follow <a href="https://www.instagram.com/honeybflo/" target="_blank" rel="noopener">@honeybflo</a> on Instagram
+          and TikTok for announcements and drops.</p>
+        </details>
+        <details>
+          <summary>Does Ryan Dils do consulting?</summary>
+          <p>Yes. Through his firm, Sandra Holdings, LLC, Ryan consults on software projects — full-stack web, automation,
+          and AI integrations — and on events and marketing: production, ticketing, and nightlife brand-building. Email
+          <a href="mailto:ryandils@ryandils.com">ryandils@ryandils.com</a> to start a conversation.</p>
+        </details>
+        <details>
+          <summary>How can I book Ryan Dils as a DJ?</summary>
+          <p>For DJ bookings, event partnerships, or press, email <a href="mailto:ryandils@ryandils.com">ryandils@ryandils.com</a>.
+          For HONEY-specific inquiries, contact the crew at <a href="mailto:info@honeybflo.com">info@honeybflo.com</a>.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section outro" id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Let's make<br><em>something sweet.</em></h2>
+      <a class="big-mail" href="mailto:ryandils@ryandils.com">ryandils@ryandils.com</a>
+      <p class="outro-sub">Tickets · bookings · consulting · collabs — one inbox, fast replies.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="mono">Ryan Dils ⬡ Buffalo, NY — building dance floors and software in the 716.</p>
+    <ul class="footer-links mono">
+      <li><a href="https://honeybflo.com" target="_blank" rel="noopener">honeybflo.com</a></li>
+      <li><a href="https://www.linkedin.com/in/ryanallendils/" target="_blank" rel="noopener me">LinkedIn</a></li>
+      <li><a href="https://www.facebook.com/ryanallendils/" target="_blank" rel="noopener me">Facebook</a></li>
+      <li><a href="https://www.instagram.com/honeybflo/" target="_blank" rel="noopener">@honeybflo</a></li>
+    </ul>
+    <p class="mono small">© 2026 Ryan Dils · for robots: <a href="/llms.txt">llms.txt</a> · <a href="/sitemap.xml">sitemap</a></p>
+  </footer>
+
 </body>
 </html>
