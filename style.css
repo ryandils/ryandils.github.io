@@ -1,6 +1,8 @@
 /* ============================================================
    ryandils.com — light editorial
    Warm cream · ink type · single honey accent · lots of air
+   Typography matched to sandraholdings.com:
+   Plus Jakarta Sans (display + body) · JetBrains Mono (labels)
    ============================================================ */
 
 /* ---------- Tokens ---------- */
@@ -16,9 +18,9 @@
   --accent: #f5a623;        /* fills, rules, large elements */
   --accent-deep: #8f4d06;   /* links & text accents (AA on cream) */
 
-  --font-display: "Fraunces", "Georgia", serif;
-  --font-body: "Archivo", "Helvetica Neue", sans-serif;
-  --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", "Menlo", monospace;
+  --font-display: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", "Menlo", monospace;
 
   --text-base: clamp(1rem, 0.95rem + 0.25vw, 1.13rem);
   --text-h2: clamp(1.9rem, 1.3rem + 2.4vw, 3.2rem);
@@ -112,8 +114,9 @@ a:hover { text-decoration-color: var(--accent); }
 
 .mark {
   font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 1.3rem;
+  font-weight: 800;
+  font-size: 1.25rem;
+  letter-spacing: -0.02em;
   color: var(--ink);
   text-decoration: none;
 }
@@ -189,11 +192,10 @@ a:hover { text-decoration-color: var(--accent); }
 
 .hero-name {
   font-family: var(--font-display);
-  font-optical-sizing: auto;
   font-size: var(--text-hero);
-  font-weight: 600;
-  line-height: 0.95;
-  letter-spacing: -0.02em;
+  font-weight: 800;
+  line-height: 1.02;
+  letter-spacing: -0.03em;
   margin: 0 0 1.4rem;
   text-wrap: balance;
 }
@@ -255,18 +257,16 @@ a:hover { text-decoration-color: var(--accent); }
 
 .section h2 {
   font-family: var(--font-display);
-  font-optical-sizing: auto;
   font-size: var(--text-h2);
-  font-weight: 560;
+  font-weight: 800;
   line-height: 1.05;
-  letter-spacing: -0.015em;
+  letter-spacing: -0.03em;
   margin: 0 0 1.4rem;
   text-wrap: balance;
 }
 
 .section h2 em {
-  font-style: italic;
-  font-weight: 480;
+  font-style: normal;
   color: var(--accent-deep);
 }
 
@@ -315,7 +315,8 @@ a:hover { text-decoration-color: var(--accent); }
   display: block;
   font-family: var(--font-display);
   font-size: clamp(2.4rem, 1.8rem + 2.4vw, 3.8rem);
-  font-weight: 600;
+  font-weight: 800;
+  letter-spacing: -0.02em;
   line-height: 1;
   color: var(--ink);
 }
@@ -406,8 +407,9 @@ a:hover { text-decoration-color: var(--accent); }
   gap: 1rem;
   padding: 1.2rem 0;
   font-family: var(--font-display);
-  font-size: clamp(1.1rem, 1rem + 0.6vw, 1.45rem);
-  font-weight: 520;
+  font-size: clamp(1.05rem, 1rem + 0.45vw, 1.3rem);
+  font-weight: 700;
+  letter-spacing: -0.01em;
   transition: color var(--duration-fast) ease;
 }
 .faq-list summary::-webkit-details-marker { display: none; }
@@ -443,9 +445,9 @@ a:hover { text-decoration-color: var(--accent); }
 .big-mail {
   display: inline-block;
   font-family: var(--font-display);
-  font-style: italic;
   font-size: clamp(1.25rem, 0.8rem + 2.2vw, 2.5rem);
-  font-weight: 500;
+  font-weight: 700;
+  letter-spacing: -0.02em;
   color: var(--ink);
   text-decoration: none;
   border-bottom: 2px solid var(--accent);
