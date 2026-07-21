@@ -11,8 +11,7 @@
 - Principal of Sandra Holdings, LLC, his consulting practice for software, events, and marketing work.
 - B.S. in Computer Science from the University at Buffalo; academic research in distributed systems and data-transfer optimization.
 - Western New York Prosperity Fellow (Prentice Family Foundation).
-- Software engineering experience at M&T Bank and ACV Auctions.
-- Founder of Open Beats, a web application for remote music collaboration between artists.
+- Software engineering experience at M&T Bank, ACV Auctions, and Walmart Labs.
 
 ## Events & Tickets
 
@@ -36,6 +35,7 @@ Contact: ryandils@ryandils.com
 
 - Website: https://www.ryandils.com
 - HONEY (events & tickets): https://honeybflo.com
+- Instagram: https://www.instagram.com/ryandils
 - LinkedIn: https://www.linkedin.com/in/ryanallendils/
 - Facebook: https://www.facebook.com/ryanallendils/
 - WNY Prosperity Fellowship profile: https://prenticefoundation.org/fellows/ryan-dils/
